@@ -102,7 +102,9 @@ languages. Furthermore there are no guarantee that all bindings will always be k
 - [Chicken](https://github.com/wasamasa/nuklear) by wasamasa@github.com
 - [Nim](https://github.com/zacharycarter/nuklear-nim) by zacharycarter@github.com
 - [Lua/Löve2d](https://github.com/keharriso/love-nuklear) by Kevin Harrison
-- [Python](https://github.com/billsix/pyNuklear) by William Emerison Six
+- Python
+  - [pyNuklear](https://github.com/billsix/pyNuklear) by William Emerison Six (ctypes-based wrapper)
+  - [pynk](https://github.com/nathanrw/nuklear-cffi) by nathanrw@github.com (cffi binding)
 - [CSharp/.NET](https://github.com/cartman300/NuklearDotNet) by cartman300@github.com
 
 ## Credits
@@ -117,7 +119,7 @@ Big thank you to Omar Cornut (ocornut@github) for his [imgui](https://github.com
 giving me the inspiration for this library, Casey Muratori for handmade hero
 and his original immediate mode graphical user interface idea and Sean
 Barrett for his amazing single header [libraries](https://github.com/nothings/stb) which restored my faith
-in libraries and brought me to create some of my own.
+in libraries and brought me to create some of my own. Finally Apoorva Joshi for his singe-header [file packer](http://apoorvaj.io/single-header-packer.html).
 
 ## License
 ```
